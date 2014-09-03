@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body    {
+    margin: 0px;
+    color: #151515;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #EFF5F8;
+}
+#wrapper {
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hero {
+    position: relative;
+    clear: left;
+}
+#hero section {
+    background-color: rgba(250,163,86, .8) ;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+#hero h2 {
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: -7px;
+}
+
+h1, h2 {
+    color: #3399CC;
+}
+h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1 img{
+    margin-top: 0px;
+}
+#main, #sidebar {
+    float: left;
+}
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #43A6CB;
+    color: #FFFFFF;
+    padding: 10px 0px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+header nav a {
+    display: block;
+    float: left;
+    background-color: #4D4D4D;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+header nav a:hover, 
+header nav a:active, 
+header nav a:focus{
+    background-color: #43A6CB;
+}
+section, aside, footer, header, nav {
+    display: block;
+}
+
+
+/********************** RWD CSS ****************************/
+#wrapper {
+    width: 1000px; /* Context */ 
+}
+
+#hero section {
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 80px;
+    right: 43px;
+ }
+#main {
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#sidebar {
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header nav a {
+    width: 200px;
+}
+
+
+
+
+
+
+
