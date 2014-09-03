@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width;initial-scale=1.0;" >
+    <title>HRD RWD</title>
+    
+    <style type="text/css">
+
+      html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+
+      body {
+        width: 100%;               /* set the width */
+        margin: 0 auto;             /* center the content */
+      }
+
+      div{
+        padding: 5px;
+      }
+
+      .span-1, .span-2, .span-3 {
+        min-height: 100px;
+        float: left;
+        margin: 5px 1.666666%;         /* all spans get margin */
+      }
+
+      .span-1 {
+        width: 30%;                /* one column, 90 + 10 (margin) = 100 */
+        background-color: #588C7E;      
+      }
+
+      .span-2 {
+        width: 63.33333%;             /* two column, 190 + 10(margin) = 200 */
+        background-color: #F2AE72;
+      }
+      
+      .span-3 {
+        width: 96.66666%;               /* 290 / 300 = % */
+        background-color: #F2E394;
+      }
+
+      img{
+        max-width: 100%;
+      }
+
+      @media screen and (max-width: 700px){
+
+        .span-1, .span-2, .span-3{
+          width: 100%;
+        }
+
+      }
+
+      @media screen and (max-width: 400px){
+        .large-only{
+          display:none;
+        }
+      }
+
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="span-3">
+      <p>Spanning three columns.</p>
+    </div>
+  
+    <div class="span-1 large-only">
+      <p>Spanning one column.</p>
+    </div>
+    
+    <div class="span-2">
+      <p>Spanning two columns.</p>
+      <img src="aim.png"  />
+    </div>
+
+    <div class="span-1">
+      <p>Spanning one column.</p>
+    </div>
+
+    <div class="span-1">
+      <p>Spanning one column.</p>
+    </div>
+
+    <div class="span-1">
+      <p>Spanning one column.</p>
+    </div>
+
+  </body>
+</html>
