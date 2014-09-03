@@ -18,7 +18,7 @@ Below are a number of resources and link from within the slide deck.
 - http://bradfrost.github.io/this-is-responsive/
 - Can I Use: http://caniuse.com, http://html5please.com
 - Snap SVG: http://snapsvg.io
-- 
+
 
 **Testing**
 - NGROK: https://ngrok.com/
@@ -26,8 +26,3 @@ Below are a number of resources and link from within the slide deck.
 - Viewporter: http://bbc-sport.github.io/viewporter/
 - Browser Stack: http://www.browserstack.com/
 - Live Reload: https://github.com/yeoman/generator-mobile
-
-
-****
-
-****
